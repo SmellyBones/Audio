@@ -2,7 +2,7 @@ import gradio as gr
 import requests
 
 # Securely input your actual OpenAI API key
-openai_api_key = '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'
+openai_api_key = 'sk-xxxx'
 
 def process_audio_and_query(audio_file_path, topics):
     if audio_file_path is not None:
